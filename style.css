@@ -268,7 +268,7 @@ img{
 }
 .aboutme{
     width: 60%;
-  
+    padding-left:40px;
 }
 img:hover{
  transition: .5s;
