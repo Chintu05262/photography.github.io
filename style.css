@@ -316,7 +316,126 @@ button:hover{
     display: flex;
     margin-top: 60px;
 }
-.box{
+.box: 15px;
+      width: 150%;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .box1{
+        /* border: 5px solid #235456; */
+        background: maroon;
+        margin: 0 10px 0 0;
+        width: 110%;
+    }
+    .box2{
+       height: 250px;
+        width: 110%;
+        /* border: 5px solid maroon; */
+        background: navy;
+    }
+    .box3{
+        height: 250px;
+        width: 110%;
+        background: #300255;
+        margin-left: 10px;
+        /* border: 5px solid #f55; */
+    }
+    .des{
+        color: #fff;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .n,.m,.o{
+        margin-top: 20px;
+    }
+
+
+
+
+
+    .contact{
+        width: 100%;
+        height: 150vh;
+        margin-top: 70px;
+    }
+    .names{
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        margin-bottom: 15px;
+        text-align: left;
+        
+       
+    }
+    .left-side{
+        width: 165%;
+      border: 1px solid wheat;
+      background: #235456;
+        box-shadow: 5px 0 0 2px rgba(rgb(36, 23, 23));
+        margin-top: 500px;
+        position: relative;
+        height: 500px;
+       
+    }
+    .boxx{
+        padding-left: 30px;
+        padding-right: 0px;
+        text-align: left;  
+        margin-top: 40px;
+    }
+    .msg{
+        font-size: 30px;
+        text-align: left;
+       
+        color: #fff;   
+          
+    }
+    .form{
+        margin-top: 30px;
+    }
+    input{
+        width: 90%;
+      margin-top: 10px;
+      height: 40px;
+      padding: 10px;
+      font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        height: 150px;
+        width: 90%;
+    }
+    .btn2{
+        border-radius: 10px;
+        background: hotpink;
+        width: 150px;
+        cursor: pointer;
+        float: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn2:hover{
+        transform: translateY(-50%);
+        transition: .5s;
+    }
+    .linkss{
+        position: absolute;
+        bottom: 30px;
+        left: 300px;
+    
+        color: white;
+        text-align: right;
+    }
+    .linkss i{
+        color: white;
+        background: #f22288;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 0 -5px ;
+    }
+}{
     max-width: 30ppx;
     
     overflow: hidden;
@@ -490,10 +609,13 @@ textarea{
 } */
 
 
-
-
 @media (max-width:468px){
-   
+  body{
+      width: 100%;
+  }
+   ul li{
+       display: none;
+   }
    
     .my{
         padding: 0;
@@ -503,11 +625,14 @@ textarea{
     .logo{
         position: absolute;
         top:24%;
-        left: 25%;
+        left: 35%;
         
         color: goldenrod;
        background: transparent;
         font-weight: 600;
+    }
+    .icon{
+        display: none;
     }
     .my{
         text-transform: uppercase;
@@ -531,11 +656,12 @@ textarea{
     }
     .section-title{
         text-transform: uppercase;
-        font-size: 26px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        margin-bottom: 60px;
         color: #fff;
-        width: 100%;
-        margin-left: 120px;
+       
+        width: 220%;
+        text-align: center;
     }
     .card{
         border: 5px solid gold;
@@ -569,7 +695,7 @@ textarea{
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(2,1fr);
-        width: 160%;
+        width: 230%;
         justify-content: space-between;
     }
     .name{
@@ -585,8 +711,8 @@ textarea{
         position: relative;
         grid-template-columns: repeat(1,1fr);
       
-        height: 100vh;
-        width: 170%;
+        height: 90vh;
+        width: 210%;
         background: #f555;
         margin-top: 40px;
     }
@@ -597,11 +723,15 @@ textarea{
        
     }
     img{
-        height: 400px;
-        border: 2px solid #fff;
+        height: 405px;
+        border: 5px solid #fff;
     }
     .img{
-        padding: 5px 5px;
+        padding: 35px 35px 0px 125px;
+    }
+    .img:hover{
+        transform: scale(.9);
+        transition: .5s;
     }
     .section-title{
         color: #111;
@@ -627,13 +757,13 @@ textarea{
     }    
     .p{
         color: #ffff;
-        text-align: left;
+        text-align: center;
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 100;
         letter-spacing: 1px;
         
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .c{
         margin-top: 10px;
@@ -645,7 +775,7 @@ textarea{
         outline: none;
         border: none;
         background: #f22288;
-        margin-top: 5px;
+        margin-top: 20px;
         color: #fff;
         font-size: 20px;
         
@@ -656,7 +786,7 @@ textarea{
         
     }
     h4{
-        margin-left: 120px;
+        margin-left: 240px;
     }
     .service{
       display: grid;
@@ -669,17 +799,17 @@ textarea{
         /* border: 5px solid #235456; */
         background: maroon;
         margin: 0 10px 0 0;
-        width: 110%;
+        width: 140%;
     }
     .box2{
        height: 250px;
-        width: 110%;
+        width: 140%;
         /* border: 5px solid maroon; */
         background: navy;
     }
     .box3{
         height: 250px;
-        width: 110%;
+        width: 138%;
         background: #300255;
         margin-left: 10px;
         /* border: 5px solid #f55; */
@@ -698,18 +828,13 @@ textarea{
 
 
     .contact{
-        width: 100%;
-        height: 150vh;
+        width: 130%;
+        height: 55vh;
         margin-top: 70px;
     }
     .names{
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-family: 'Times New Roman', Times, serif;
-        color: #fff;
-        margin-bottom: 15px;
-        text-align: left;
-        
+      display: none;
+        margin-top: 500px;
        
     }
     .left-side{
@@ -717,7 +842,7 @@ textarea{
       border: 1px solid wheat;
       background: #235456;
         box-shadow: 5px 0 0 2px rgba(rgb(36, 23, 23));
-        margin-top: 500px;
+        margin-top: 600px;
         position: relative;
         height: 500px;
        
@@ -781,3 +906,4 @@ textarea{
         margin: 0 -5px ;
     }
 }
+
