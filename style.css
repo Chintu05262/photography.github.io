@@ -471,7 +471,7 @@ textarea{
 .yo{
     color: #fff;
 }
-@media (max-width:768px){
+/* @media (max-width:768px){
     ul li{
         display: none;
 
@@ -487,4 +487,297 @@ textarea{
         margin-top: 5px;
     }
    
+} */
+
+
+
+
+@media (max-width:468px){
+   
+   
+    .my{
+        padding: 0;
+        text-align: left;
+        
+    }
+    .logo{
+        position: absolute;
+        top:24%;
+        left: 25%;
+        
+        color: goldenrod;
+       background: transparent;
+        font-weight: 600;
+    }
+    .my{
+        text-transform: uppercase;
+        font-size: 25px;
+        color: goldenrod;
+    }
+    .header-section{
+        width: 200%;
+        height: 100vh;
+        
+        background-size: cover;
+        display: flex;
+      
+        background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)), url(bg3.jpg) center/cover no-repeat fixed;
+    }
+    h1{
+        color: #fff;
+        font-weight: 600;
+        font-size: 49px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .section-title{
+        text-transform: uppercase;
+        font-size: 26px;
+        margin-bottom: 30px;
+        color: #fff;
+        width: 100%;
+        margin-left: 120px;
+    }
+    .card{
+        border: 5px solid gold;
+        overflow: hidden;
+       width: 285px;
+        object-fit: cover;
+        background-size: cover;
+        height: 300px;
+        position: relative;
+       margin-left: 20px;
+      
+       
+       display: inline-block;
+        height: 470px;
+        background: #fff;
+        
+       
+    }
+    .card img{
+        transform: translatex(-50%);
+        object-fit: cover;
+        background-image: cover;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+    }
+    .product-container{
+       display: inline-block;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        width: 160%;
+        justify-content: space-between;
+    }
+    .name{
+        color: #111;
+        position: absolute;
+        bottom: 5%;
+        font-weight: 600;
+        font-size: 20px;
+        left: 15%;
+    }
+    .about{
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(1,1fr);
+      
+        height: 100vh;
+        width: 170%;
+        background: #f555;
+        margin-top: 40px;
+    }
+    .right{
+        text-align: center;
+        width: 100%;
+        flex-direction: column-reverse;
+       
+    }
+    img{
+        height: 400px;
+        border: 2px solid #fff;
+    }
+    .img{
+        padding: 5px 5px;
+    }
+    .section-title{
+        color: #111;
+        font-size: 50px;
+    }
+    .aboutme{
+        width: 100%;
+       
+      margin-top: -100px;
+    }
+    .yo{
+       
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .left{
+        width: 100px;
+        flex-direction: column-reverse;
+    }
+    h1{
+        font-size: 25px;
+    }    
+    .p{
+        color: #ffff;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        
+        padding: 0 20px;
+    }
+    .c{
+        margin-top: 10px;
+    }
+    
+    .btn{
+        padding: 15px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background: #f22288;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 20px;
+        
+    }
+    .yo{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    h4{
+        margin-left: 120px;
+    }
+    .service{
+      display: grid;
+      grid-template-rows: 250px;
+      gap: 15px;
+      width: 150%;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .box1{
+        /* border: 5px solid #235456; */
+        background: maroon;
+        margin: 0 10px 0 0;
+        width: 110%;
+    }
+    .box2{
+       height: 250px;
+        width: 110%;
+        /* border: 5px solid maroon; */
+        background: navy;
+    }
+    .box3{
+        height: 250px;
+        width: 110%;
+        background: #300255;
+        margin-left: 10px;
+        /* border: 5px solid #f55; */
+    }
+    .des{
+        color: #fff;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .n,.m,.o{
+        margin-top: 20px;
+    }
+
+
+
+
+
+    .contact{
+        width: 100%;
+        height: 150vh;
+        margin-top: 70px;
+    }
+    .names{
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        margin-bottom: 15px;
+        text-align: left;
+        
+       
+    }
+    .left-side{
+        width: 165%;
+      border: 1px solid wheat;
+      background: #235456;
+        box-shadow: 5px 0 0 2px rgba(rgb(36, 23, 23));
+        margin-top: 500px;
+        position: relative;
+        height: 500px;
+       
+    }
+    .boxx{
+        padding-left: 30px;
+        padding-right: 0px;
+        text-align: left;  
+        margin-top: 40px;
+    }
+    .msg{
+        font-size: 30px;
+        text-align: left;
+       
+        color: #fff;   
+          
+    }
+    .form{
+        margin-top: 30px;
+    }
+    input{
+        width: 90%;
+      margin-top: 10px;
+      height: 40px;
+      padding: 10px;
+      font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        height: 150px;
+        width: 90%;
+    }
+    .btn2{
+        border-radius: 10px;
+        background: hotpink;
+        width: 150px;
+        cursor: pointer;
+        float: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn2:hover{
+        transform: translateY(-50%);
+        transition: .5s;
+    }
+    .linkss{
+        position: absolute;
+        bottom: 30px;
+        left: 300px;
+    
+        color: white;
+        text-align: right;
+    }
+    .linkss i{
+        color: white;
+        background: #f22288;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 0 -5px ;
+    }
 }
